@@ -8,4 +8,6 @@ Por eventuais formas de sigilo não será disponibilizado aqui o arquivo contend
 
 Este script é de de livre utilização para qualquer que deseje utilizar, implementar e divulgar no âmbito de promover soluções rápidas e faceis de acesso à dados e informações;
 
+Na linha 24 do código fonte há um função upper() para converter o input em Maiúsculas, pois no arquivo database utilizado todas as strings dentro do arquivo estavam somente em caixa alta, no caso de seu arquivo conter dados em letras minúsculas remover esta função. No caso de seu arquivo conter LetRas miStUraDAs o programa possivelmente não encontrará a String.
+
 Obs: No caso de utilização do programa, deverá ser criado um arquivo database de extensão .txt ou .csv contendo as linhas a serem buscadas. No caso de utilização por outra instituição de ensino para os mesmos fins, recomenda-se criar uma cópia do arquivo de banco de dados do arquivo morto (neste caso) nos formatos anteriormente citados (.txt/.csv) e coloca-lo junto ao arquivo 'busca.py'.
